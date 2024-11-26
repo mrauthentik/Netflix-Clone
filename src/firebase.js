@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from 'firebase/auth'
+import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth'
 import { addDoc, collection, getFirestore} from 'firebase/firestore'
 const firebaseConfig = {
   apiKey: "AIzaSyBfO6qRHzgOAivbRD16Pxufrcan2hPa8k4",
@@ -41,3 +41,6 @@ const login = async (email, password)=>{
     }
 }
 
+const logout = ()=>{
+    signOut(auth);
+}
