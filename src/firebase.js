@@ -44,3 +44,5 @@ const login = async (email, password)=>{
 const logout = ()=>{
     signOut(auth);
 }
+
+export {auth, db, login, signup, signOut}
