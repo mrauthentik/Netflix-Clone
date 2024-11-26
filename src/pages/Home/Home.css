@@ -3,7 +3,7 @@
 }
 .banner-img{
     width: 100%;
-    mask-image: linear-gradient(to right, transparent, black 75%);
+    mask-image: linear-gradient(to right, transparent, black 85%);
 }
 .hero-caption{
     position: absolute;
@@ -51,4 +51,7 @@
  }
  .hero-btns .btn.dark-btn:hover{
     background: #6d6d6e66;
+ }
+ .more-cards{
+    padding-left: 6%;
  }
