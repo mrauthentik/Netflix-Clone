@@ -1,0 +1,28 @@
+.player{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+.player-name{
+    background-image: linear-gradient(45deg, red, orange, yellow, green, rgb(255, 64, 0), rgb(244, 219, 32), rgb(8, 246, 12));
+    -webkit-background-clip: text;
+  color: transparent; /* Important: This makes the text transparent to show the gradient */
+}
+.player iframe{
+    border-radius: 10px;
+}
+.player-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
