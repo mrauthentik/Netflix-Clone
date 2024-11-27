@@ -11,7 +11,7 @@ const Login = () => {
   const [password, setpassword] = useState("")
   
 const user_auth = async (event)=>{
-  event.preventDefault
+  event.preventDefault()
   if(signState === "Sign In"){
     await login(email, password)
   }else{

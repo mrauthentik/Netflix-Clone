@@ -5,7 +5,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyBfO6qRHzgOAivbRD16Pxufrcan2hPa8k4",
   authDomain: "netflix-clone-372aa.firebaseapp.com",
   projectId: "netflix-clone-372aa",
-  storageBucket: "netflix-clone-372aa.firebasestorage.app",
+  storageBucket: "netflix-clone-372aa.firebasestorage.appspot.com",
   messagingSenderId: "463848293281",
   appId: "1:463848293281:web:e6fcc029bf4f84eff581e0"
 };
